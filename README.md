@@ -1,5 +1,9 @@
 # WCCT x U-Matrix
 
+[![smoke](https://github.com/QCT-xyz/wcct-umatrix/actions/workflows/smoke.yml/badge.svg)](https://github.com/QCT-xyz/wcct-umatrix/actions/workflows/smoke.yml)
+[![mini-run](https://github.com/QCT-xyz/wcct-umatrix/actions/workflows/mini-run.yml/badge.svg)](https://github.com/QCT-xyz/wcct-umatrix/actions/workflows/mini-run.yml)
+
+
 Reproducible notebook linking WCCT scalar fields to U-Matrix coherence boundaries with falsifiable metrics, null tests, and robustness sweeps.
 
 ## One-click (after first push)
