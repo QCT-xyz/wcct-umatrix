@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it as below.
+title: WCCT × U-Matrix: Reproducible alignment tests with SOM U-Matrix and WCCT scalar fields
+version: v0.1
+date-released: 2025-10-29
+type: software
+repository-code: https://github.com/QCT-xyz/wcct-umatrix
+authors:
+  - family-names: Thornton
+    given-names: Dustin
+    affiliation: QuantumCore Technologies (QCT)
+keywords:
+  - WCCT
+  - U-Matrix
+  - Self-organizing map
+  - Scalar field
+  - Reproducibility
