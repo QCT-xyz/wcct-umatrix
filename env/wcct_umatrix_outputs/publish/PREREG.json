@@ -1,0 +1,61 @@
+{
+  "created_at": "2025-10-29T20:21:57",
+  "seeds": [
+    1234,
+    2024,
+    314159,
+    271828,
+    8675309
+  ],
+  "metrics": [
+    "Spearman(U_on_phi, |\u2207\u03c6|)",
+    "MI(U_on_phi, |\u2207\u03c6|)",
+    "Jaccard(ridges, high-|\u2207\u03c6|)",
+    "Enrichment(ridges inside high-|\u2207\u03c6|)"
+  ],
+  "null_test": {
+    "method": "circular_shift",
+    "N": 500,
+    "one_sided_positive": true
+  },
+  "ridge_params": {
+    "best_sigma": 2.0,
+    "best_ridge_q": 90.0
+  },
+  "high_grad_qs": [
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "stability_region": {
+    "m": [
+      0.7,
+      1.1
+    ],
+    "lambda": [
+      0.25,
+      0.45
+    ]
+  },
+  "som_sizes": [
+    [
+      16,
+      16
+    ],
+    [
+      22,
+      22
+    ],
+    [
+      28,
+      28
+    ]
+  ],
+  "accept_criteria": {
+    "alignment": "Spearman and MI above 95 percent null, one-sided p<=0.05",
+    "boundary": "Enrichment>1 across q set and Jaccard above null",
+    "stability": ">=70 percent of grid points in rectangle pass alignment",
+    "invariance": "metrics stable across SOM sizes without crossing null"
+  }
+}

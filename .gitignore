@@ -1,0 +1,15 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# jupyter
+.ipynb_checkpoints/
+
+# local env and generated outputs (keep curated publish only)
+env/.venv/
+env/wcct_umatrix_outputs/*
+!env/wcct_umatrix_outputs/publish/

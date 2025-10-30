@@ -1,0 +1,58 @@
+{
+  "run_id": "20251029_194957",
+  "seed": 1234,
+  "output_dir": "/Users/dustin.thornton/wcct-sims/wcct-sims/env/wcct_umatrix_outputs",
+  "git_commit": "NA",
+  "versions": {
+    "python": "3.13.2",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "numpy": "2.1.0",
+    "matplotlib": "3.10.7",
+    "scipy": "1.14.1"
+  },
+  "config": {
+    "grid": {
+      "nx": 72,
+      "ny": 72,
+      "nz": 48,
+      "dx": 1.0
+    },
+    "pde": {
+      "m": 0.9,
+      "lam": 0.35
+    },
+    "solver": {
+      "dt": 0.05,
+      "steps": 250,
+      "check_every": 25
+    },
+    "rho": {
+      "noise_amp": 0.35,
+      "lp_cutoff": 0.25,
+      "num_lumps": 6,
+      "lump_amp": 1.2,
+      "lump_sigma": 6.0
+    },
+    "dtype": "float32"
+  },
+  "metrics_files": [
+    "alignment_metrics.json",
+    "sweep_results.json",
+    "null_shift_results.json"
+  ],
+  "headline": {
+    "spearman_midline": 0.5320994730741938,
+    "jaccard_q85": 0.015075376884403172,
+    "enrichment_q85": 2.665295629359488
+  },
+  "checksums": {
+    "wcct_umatrix_final_composite.png": "e4ce2df5258c71329cd6d3aa545bad53de61b2cdd05246db6d2b5d28ad34d4ff",
+    "wcct_umatrix_final_composite.pdf": "415cc2d3e6701c12b8dd18cd2756b37c3909cb2e933d59e6df24b6e2ada3e99c",
+    "wcct_umatrix_four_panel.png": "eb352de8a1bf3520acc98fe86ee003bb20f1e65e2144ea4925c514c5e36da4ee",
+    "overlay_U_ridges_grad_edges.png": "6ac0f890805264396f57556998fed1df2cf7876e447877168933fb28741d8e74",
+    "cross_section_midline.png": "f7f7b5e8b62d30e24d5a9a860c0fdea28df135c5a9a46aaa698855cef3e84b9a",
+    "grid_m_lambda_heatmaps.png": "90680340ae95e69cc500350dcddbdc78087bb26816be8fede7ec573965d48fb5",
+    "sweep_ridge_params.png": "d98e7efb411edfd16b25b15f9a4ce8d34413e6583c01cb26885cb9dd46a5e1dd",
+    "sweep_grad_thresholds.png": "a607d69cf7bcf8c7f5994fbb712e54629d720162177fb80b67da42d05bbfd428"
+  }
+}
